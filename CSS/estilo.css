@@ -329,3 +329,22 @@ header   {
     white-space: pre;
 }
 }
+/* Animaciones */
+.menu a:hover  {
+    
+    transition: width 50%;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    background: #355C7D;
+    background: linear-gradient(to top, #C06C84, #6C5B7B, #355C7D);
+    opacity: 50%;
+    border-radius: 15px;
+}
+
+.galeria img:hover    {
+    transition: transform 3s ease-in-out;
+    transform: rotate(360deg);
+}
+
+#pie a:hover {
+    color: #C06C84
+}
