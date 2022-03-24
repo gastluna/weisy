@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=   , initial-scale=1.0">
-    <title>Colecciones Weisy Premium</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap');
@@ -12,46 +12,77 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
             </style>
+            <title>Colecciones Weisy Premium</title>
 </head>
 <body>
 <section>
     <header> 
-        <nav class="menu">
-            <ul>
-                <img class="LOGOcopia" src="Multimedia/logopsd copia.png" style="width: 50px;" alt="Logotipo">
-                 <a href="colecciones.html" target="_self" > Colecciones </a> 
-                 <a href="nosotros.html" target="_self" > Nosotros </a> 
-                 <a href="creá_con_estilo.html" target="_self" >Estilos </a> 
-                 <a href="contactanos.html" target="_self" > Contactanos </a>
-                 <a href="index.html" target="_self" >Inicio</a>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Weisy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="colecciones.html">Colecciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="creá_con_estilo.html">Estilos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="contactanos.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <br>
 <br>
-        <div class="galeria">
-            <div class="sillon1">
-                <div class="tittle1">
-            <h2>White premium</h2></div>
-                <img hover src="Colecciones/sillonblanco.png" style="width: 300px;" alt="Sillón Blanco">
-                    <p class="p1">Tapizada en lienzo color natural. También se puede tapizar en cualquier otra tela el precio es el mismo ,pero sin la funda incluida. Placas de alta densidad </p>                
-            </div>
-<br>
-    <div class="sillon2">
-        <div class="tittle2">
-        <h2>Ligth Blue Premium</h2></div>
-                <img src="Colecciones/sillonceleste.png" style="width: 300px;" alt="Sillón celeste">
-                <p class="p2">Estructura altamente reforzada con madera saligna estacionada y escuadra. Almohadones rellenos de copo y vellon siliconado. Todas las fundas son extraibles y lavables en lavarropas </p>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-<br>
-    <div class="sillon3">
-        <div class="tittle3">
-        <h2>Pink Premium</h2></div>
-            <img src="Colecciones/sillonrosa.png" style="width: 300px;" alt="Sillón Rosa">
-            <p class="p3">Estructura en Madera Saligna de 1 pulgada, perfectamente armada, encuadrada, encolada y clavada, fortalecida con escuadras brindando mayor durabilidad. 
-                Asientos Super Cómodos Cubiertos con Placa Soft de Poliuretano de alta densidad 26 Kg y 13 cms de altura, que ofrecen máximo confort, ni pierden la forma (efecto memoria).</p>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Colecciones/sillonblanco.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>White Premium</h5>
+          <p>Tapizada en lienzo color natural. También se puede tapizar en cualquier otra tela el precio es el mismo ,pero sin la funda incluida. Placas de alta densidad</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Colecciones/sillonceleste.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ligth Blue Premium</h5>
+          <p>Estructura altamente reforzada con madera saligna estacionada y escuadra. Almohadones rellenos de copo y vellon siliconado. Todas las fundas son extraibles y lavables en lavarropas</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Colecciones/sillonrosa.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Pink Premium</h5>
+          <p>Estructura en Madera Saligna de 1 pulgada, perfectamente armada, encuadrada, encolada y clavada, fortalecida con escuadras brindando mayor durabilidad. 
+            Asientos Super Cómodos Cubiertos con Placa Soft de Poliuretano de alta densidad 26 Kg y 13 cms de altura, que ofrecen máximo confort, ni pierden la forma (efecto memoria).</p>
+        </div>
+      </div>
     </div>
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 <footer id="pie">
@@ -65,5 +96,6 @@
         </ul>
     </nav>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
