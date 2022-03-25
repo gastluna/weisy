@@ -1,4 +1,4 @@
-html    {
+/* html    {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@ html    {
 }
 
 
-/* index */
+/* index 
 .LOGOcopia  div{
     position:absolute;
     width: 10px;
@@ -69,7 +69,7 @@ html    {
     font-size: 70px;
 }
 
-/* Contacto */
+/* Contacto 
 .tabla  {
     background: linear-gradient(70deg, #845EC2, #B39CD0, #FBEAFF, #00C9A7);
     color: #6e7375;
@@ -96,7 +96,7 @@ input   {
     font-size: 5px;
 }
 
-/* Creá con estilo */
+/* Creá con estilo 
 .table  {
     border-color: aliceblue;
     border-radius: 5px;
@@ -161,7 +161,7 @@ input   {
     font-size: 30px;
 }
 
-/* Grid y Flex INDEX*/
+/* Grid y Flex INDEX
 
 .contenedor     {
     display: grid;
@@ -185,7 +185,7 @@ input   {
     opacity: 90%;  
 }
 
-/* Grid y Flex Colecciones*/
+/* Grid y Flex Colecciones
 
 .galeria {
     display: grid;
@@ -251,7 +251,7 @@ input   {
 }
 
 
-/* mobile first */
+/* mobile first 
 @media screen and (max-width: 720px){
 header   {
         margin: 0%;
@@ -329,7 +329,7 @@ header   {
     white-space: pre;
 }
 }
-/* Animaciones */
+/* Animaciones 
 .menu a:hover  {
     
     transition: width 50%;
