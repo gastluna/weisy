@@ -62,14 +62,15 @@
     font-size: 20px;    
     
 }
-
+*/
 .tittle {
     color: rgb(104, 59, 81);
     font-family: 'Lato', sans-serif;
     font-size: 70px;
 }
 
-/* Contacto 
+
+/* Contacto */ 
 .tabla  {
     background: linear-gradient(70deg, #845EC2, #B39CD0, #FBEAFF, #00C9A7);
     color: #6e7375;
@@ -78,6 +79,7 @@
     margin: 50px;
     padding: 50px;
 }
+/*
 
 textarea{
     font-family: monospace;
@@ -96,7 +98,7 @@ input   {
     font-size: 5px;
 }
 
-/* Creá con estilo 
+/* Creá con estilo */
 .table  {
     border-color: aliceblue;
     border-radius: 5px;
@@ -162,7 +164,7 @@ input   {
 }
 
 /* Grid y Flex INDEX
-
+*/
 .contenedor     {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
